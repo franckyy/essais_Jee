@@ -20,7 +20,7 @@ public class IndexAction extends ActionSupport {
 
 
 	public String index() {
-		message = "bonjour depuis index le " + new Date();
+		message = "bonjour, depuis index le " + new Date();
 		return SUCCESS;
 	}
 
